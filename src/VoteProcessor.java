@@ -6,7 +6,7 @@ public class VoteProcessor {
 		int votesForEdward = 0;
 		for(int i=0; i<votes.size(); i++) {
 			String e = votes.get(i);
-			e.toLowerCase();
+			e=e.toLowerCase();
 			votes.set(i, e);
 		}
 		for(int i=0; i<votes.size(); i++) {
